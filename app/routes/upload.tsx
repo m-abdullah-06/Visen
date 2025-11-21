@@ -8,7 +8,10 @@ import {convertPdfToImage} from "~/lib/pdf2img";
 import {generateUUID} from "~/lib/utils";
 import {prepareInstructions} from "../../constants";
 
-
+export const meta = () => ([
+    { title: 'Visen | Upload' },
+    { name: 'description', content: 'Upload your resume' },
+])
 
 
 const Upload = () => {
@@ -61,6 +64,7 @@ const Upload = () => {
         data.feedback = JSON.parse(feedbackText);
         await kv.set(`resume:${uuid}`, JSON.stringify(data));
         setStatusText('Analysis complete, redirecting...');
+        navigate(`/resume/${uuid}`);
     }
     const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
         e.preventDefault();
