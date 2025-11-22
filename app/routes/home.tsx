@@ -7,8 +7,8 @@ import ResumeCard from "~/component/resumecards";
 
 export function meta({}: Route.MetaArgs) {
     return [
-        { title: "Resumind" },
-        { name: "description", content: "Smart feedback for your dream job!" },
+        { title: "Visen" },
+        { name: "description", content: "AI-driven analytics" },
     ];
 }
 
