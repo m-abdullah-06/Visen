@@ -1,10 +1,15 @@
-import React from "react";
 import { Link } from "react-router";
 
 const AuthHeader = () => {
   return (
-    <header className="flex flex-row justify-center items-center text-white rounded-full p-4 w-full px-10 max-w-[1200px] mx-auto font-bold text-[30px]">
-      VISEN
+    <header className="relative z-10 py-6">
+      <div className="flex items-center justify-center">
+        <Link to="/" className="flex items-center space-x-3">
+          <h1 className="text-3xl font-black tracking-wider text-white">
+            VISEN
+          </h1>
+        </Link>
+      </div>
     </header>
   );
 };
