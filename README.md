@@ -15,8 +15,6 @@
 
 ---
 
-![Visen Dashboard](https://via.placeholder.com/1200x600/0f172a/667eea?text=Visen+Dashboard+Screenshot)
-
 </div>
 
 ---
