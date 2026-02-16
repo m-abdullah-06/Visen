@@ -7,6 +7,9 @@ const Navbar = () => {
       <Link to="/">
         <p className="text-2xl font-bold">VISEN</p>
       </Link>
+      <Link to="/interview-prep" className="">
+        Interview Prep
+      </Link>
       <Link to="/upload" className="primary-button w-fit">
         Get Insights
       </Link>
