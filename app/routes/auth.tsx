@@ -2,7 +2,11 @@ import { usePuterStore } from "~/lib/puter";
 
 export const meta = () => [
   { title: "Visen | Auth" },
-  { name: "description", content: "Log into your account" },
+  {
+    name: "description",
+    content:
+      "An AI-powered career intelligence platform that helps job seekers optimize their resumes and simulate real interview experiences with personalized feedback.",
+  },
 ];
 
 import React, { useEffect, useState } from "react";

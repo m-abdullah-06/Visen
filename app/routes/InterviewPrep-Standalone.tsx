@@ -7,7 +7,11 @@ import { generateUUID } from "~/lib/utils";
 
 export const meta = () => [
   { title: "Visen | Interview Prep" },
-  { name: "description", content: "AI-powered interview preparation" },
+  {
+    name: "description",
+    content:
+      "An AI-powered career intelligence platform that helps job seekers optimize their resumes and simulate real interview experiences with personalized feedback.",
+  },
 ];
 
 interface InterviewSession {

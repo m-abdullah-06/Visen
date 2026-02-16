@@ -7,8 +7,12 @@ import ResumeCard from "~/component/resumecards";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "Visen - AI-Driven Resume Analysis" },
-    { name: "description", content: "AI-driven analytics" },
+    { title: "Visen - AI-Powered Career Intelligence Platform" },
+    {
+      name: "description",
+      content:
+        "An AI-powered career intelligence platform that helps job seekers optimize their resumes and simulate real interview experiences with personalized feedback.",
+    },
   ];
 }
 

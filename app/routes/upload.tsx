@@ -10,7 +10,11 @@ import { prepareInstructions } from "../../constants";
 
 export const meta = () => [
   { title: "Visen | Upload Resume" },
-  { name: "description", content: "AI-driven review of your resume" },
+  {
+    name: "description",
+    content:
+      "An AI-powered career intelligence platform that helps job seekers optimize their resumes and simulate real interview experiences with personalized feedback.",
+  },
 ];
 
 const Upload = () => {

@@ -6,8 +6,12 @@ import ATS from "~/component/ATS";
 import Details from "~/component/Details";
 
 export const meta = () => [
-  { title: "Visen | Review" },
-  { name: "description", content: "AI-driven review of your resume" },
+  { title: "Visen | Resume Review" },
+  {
+    name: "description",
+    content:
+      "An AI-powered career intelligence platform that helps job seekers optimize their resumes and simulate real interview experiences with personalized feedback.",
+  },
 ];
 
 const Resume = () => {
