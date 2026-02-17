@@ -1,12 +1,13 @@
 import { usePuterStore } from "~/lib/puter";
 
 export const meta = () => [
-  { title: "Visen | Auth" },
+  { title: "Sign In - Visen | AI Career Intelligence Platform" },
   {
     name: "description",
     content:
-      "An AI-powered career intelligence platform that helps job seekers optimize their resumes and simulate real interview experiences with personalized feedback.",
+      "Sign in to Visen and access your AI-powered resume analyzer and interview prep coach. Start optimizing your career today.",
   },
+  { name: "robots", content: "noindex, nofollow" },
 ];
 
 import React, { useEffect, useState } from "react";
@@ -20,7 +21,7 @@ const Auth = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    if (auth.isAuthenticated) navigate(next);
+    if (auth.isAuthenticated) navigate(next || "/dashboard");
   }, [auth.isAuthenticated, next]);
 
   return (

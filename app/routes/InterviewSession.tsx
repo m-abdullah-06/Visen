@@ -13,12 +13,13 @@ import {
 } from "lucide-react";
 import { generateUUID } from "~/lib/utils";
 export const meta = () => [
-  { title: "Visen | Interview Prep" },
+  { title: "Interview Practice Session - Visen | AI Feedback" },
   {
     name: "description",
     content:
-      "An AI-powered career intelligence platform that helps job seekers optimize their resumes and simulate real interview experiences with personalized feedback.",
+      "Practice your interview answers and get real-time AI feedback. Improve your responses, build confidence, and ace your next interview.",
   },
+  { name: "robots", content: "noindex, nofollow" },
 ];
 
 interface Question {

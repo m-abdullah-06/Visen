@@ -9,12 +9,13 @@ import path from "node:path";
 import { prepareInstructions } from "../../constants";
 
 export const meta = () => [
-  { title: "Visen | Upload Resume" },
+  { title: "Analyze Your Resume - Visen | AI Resume Feedback" },
   {
     name: "description",
     content:
-      "An AI-powered career intelligence platform that helps job seekers optimize their resumes and simulate real interview experiences with personalized feedback.",
+      "Upload your resume and get instant AI-powered feedback. Get ATS scores, content analysis, and actionable improvements in under 10 seconds.",
   },
+  { name: "robots", content: "noindex, nofollow" },
 ];
 
 const Upload = () => {

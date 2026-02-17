@@ -6,12 +6,13 @@ import { Brain, Clock, Target, Play, Sparkles } from "lucide-react";
 import { generateUUID } from "~/lib/utils";
 
 export const meta = () => [
-  { title: "Visen | Interview Prep" },
+  { title: "Interview Prep - Visen | AI Interview Coach" },
   {
     name: "description",
     content:
-      "An AI-powered career intelligence platform that helps job seekers optimize their resumes and simulate real interview experiences with personalized feedback.",
+      "Practice interviews with AI-generated questions tailored to any job role. Get instant feedback on your answers and walk into every interview with confidence.",
   },
+  { name: "robots", content: "noindex, nofollow" },
 ];
 
 interface InterviewSession {

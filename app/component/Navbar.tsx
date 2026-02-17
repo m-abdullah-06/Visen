@@ -4,10 +4,13 @@ import { Link } from "react-router";
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <Link to="/">
+      <Link to="/dashboard">
         <p className="text-2xl font-bold">VISEN</p>
       </Link>
-      <Link to="/interview-prep" className="">
+      <Link
+        to="/interview-prep"
+        className="font-bold hover:transform hover:translate-y-[-2px] transition-transform"
+      >
         Interview Prep
       </Link>
       <Link to="/upload" className="primary-button w-fit">

@@ -6,12 +6,13 @@ import ATS from "~/component/ATS";
 import Details from "~/component/Details";
 
 export const meta = () => [
-  { title: "Visen | Resume Review" },
+  { title: "Resume Analysis Results - Visen | AI Feedback" },
   {
     name: "description",
     content:
-      "An AI-powered career intelligence platform that helps job seekers optimize their resumes and simulate real interview experiences with personalized feedback.",
+      "View your detailed AI resume analysis. See your ATS score, tone, content, and structure feedback with personalized improvement tips.",
   },
+  { name: "robots", content: "noindex, nofollow" },
 ];
 
 const Resume = () => {
@@ -89,7 +90,7 @@ const Resume = () => {
       {/* Content */}
       <div className="relative z-10">
         <nav className="resume-nav">
-          <Link to="/" className="back-button">
+          <Link to="/dashboard" className="back-button">
             <span className="text-white text-sm font-semibold">Home</span>
           </Link>
         </nav>
