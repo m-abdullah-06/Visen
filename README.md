@@ -1,17 +1,18 @@
 <div align="center">
 
-# ⚡ VISEN
+# ⚡ VISEN - AI Career Intelligence Platform
 
-### AI-Powered Resume Analysis for Your Dream Job
+### Your AI-Powered Career Co-Pilot
 
-*Transform your resume with intelligent, actionable feedback powered by advanced AI*
+*An AI-powered career intelligence platform that helps job seekers optimize their resumes and simulate real interview experiences with personalized feedback.*
 
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://www.netlify.com/)
 
-• [Features](#-features) • [Installation](#-installation) • [Usage](#-usage) • [Tech Stack](#-tech-stack)
+[🌐 Live Demo](#) • [📖 Documentation](#-features) • [🐛 Report Bug](../../issues) • [💡 Request Feature](../../issues)
 
 ---
 
@@ -19,241 +20,288 @@
 
 ---
 
-## 🌟 Features
+## 📋 Table of Contents
 
-### 🎯 **AI-Powered Analysis**
-- Advanced AI algorithms analyze your resume against industry standards
-- Real-time ATS (Applicant Tracking System) compatibility scoring
-- Personalized feedback based on job description and company requirements
-
-### 📊 **Comprehensive Scoring**
-- **Overall Score**: Get an instant assessment of your resume quality
-- **Category Breakdown**: Detailed scores for Tone & Style, Content, Structure, and Skills
-- **Visual Analytics**: Beautiful score gauges and progress indicators
-
-### 💡 **Actionable Insights**
-- **Tone & Style**: Professional language and formatting recommendations
-- **Content Quality**: Suggestions for impactful achievements and descriptions
-- **Structure**: Optimal layout and organization guidance
-- **Skills Alignment**: Keyword optimization for target positions
-
-### 🎨 **Modern UI/UX**
-- Sleek dark theme with purple-indigo gradients
-- Glass morphism effects and smooth animations
-- Fully responsive design for all devices
-- Intuitive navigation and user experience
-
-### 🔐 **Secure & Private**
-- User authentication with Puter.js
-- Encrypted data storage
-- Resume history and tracking
-- No data sharing - complete confidentiality
+- [Overview](#-overview)
+- [Features](#-features)
+- [Tech Stack](#-tech-stack)
+- [Getting Started](#-getting-started)
+- [Project Structure](#-project-structure)
+- [Deployment](#-deployment)
+- [Security](#-security)
+- [Roadmap](#-roadmap)
+- [Contributing](#-contributing)
+- [License](#-license)
 
 ---
 
+## 🎯 Overview
 
-## 🚀 Tech Stack
+**Visen** is a comprehensive AI-powered career intelligence platform designed to help job seekers at every stage of their application journey. From optimizing resumes to mastering interview skills, Visen provides personalized, actionable feedback powered by advanced AI technology.
+
+### 🌟 Key Highlights
+- **2-in-1 Platform**: Resume analysis + Interview preparation
+- **AI-Powered**: Leverages cutting-edge AI for intelligent feedback
+- **Enterprise Security**: File validation, malware scanning, rate limiting
+- **Production-Ready**: Deployed on Netlify with HTTPS, SEO-optimized
+- **Beautiful UI**: Dark-themed, glass morphism design
+
+---
+
+## ✨ Features
+
+### 📄 **Resume Analyzer**
+
+- **ATS Compatibility Score**: Applicant Tracking System performance analysis
+- **Multi-Category Scoring**: Feedback across 4 key areas:
+  - 🎨 **Tone & Style**: Professional language quality
+  - 📝 **Content**: Achievement impact and relevance
+  - 🏗️ **Structure**: Layout and organization
+  - 💼 **Skills**: Keyword optimization
+
+- Instant analysis in under 10 seconds
+- Personalized improvement recommendations
+- Resume history tracking
+
+### 🎤 **Interview Coach**
+
+- **Custom Question Generation**: AI creates role-specific questions
+- **Real-Time Feedback**: Instant answer evaluation
+- **Comprehensive Scoring**: Content, structure, delivery analysis
+- **Question Types**:
+  - 💬 Behavioral (STAR method)
+  - 💻 Technical (role-specific)
+  - 🤔 Situational (problem-solving)
+
+- Timer for realistic practice
+- Answer history tracking
+- Unlimited practice sessions
+
+### 🔐 **Security & Privacy**
+
+- ✅ End-to-end encryption (HTTPS/TLS)
+- ✅ File validation (5MB max, PDF only)
+- ✅ Malware scanning
+- ✅ Per-user rate limiting (10 uses/day)
+- ✅ Secure authentication via Puter.js
+- ✅ GDPR-compliant
+
+### 🎨 **User Experience**
+
+- 🌙 Modern dark theme with purple-indigo accents
+- 💎 Glass morphism UI elements
+- ✨ Smooth animations
+- 📱 Fully responsive design
+- 🚀 Optimized performance
+
+---
+
+## 🛠️ Tech Stack
 
 ### **Frontend**
 - **React 19** - Modern UI library
 - **TypeScript** - Type-safe development
-- **React Router** - Client-side routing
-- **TailwindCSS** - Utility-first styling
+- **React Router v7** - Client-side routing
 - **Vite** - Lightning-fast build tool
+- **TailwindCSS v4** - Utility-first styling
+- **Lucide React** - Icon library
 
 ### **Backend & Services**
-- **Puter.js** - Cloud backend & authentication
-- **AI Integration** - Resume analysis engine
-- **PDF Processing** - Document parsing & image conversion
+- **Puter.js** - Cloud backend (Auth, Storage, AI)
+- **Netlify** - Hosting & deployment
 
-### **UI Components**
-- Custom-built accordion components
-- Animated score gauges
-- Glass morphism cards
-- Responsive navigation
+### **Development Tools**
+- ESLint - Code linting
+- Git - Version control
+- npm - Package management
 
 ---
 
-## 📦 Installation
+## 🚀 Getting Started
 
 ### Prerequisites
-- Node.js 18+ installed
-- npm or yarn package manager
 
-### Setup
+- Node.js 18+
+- npm or yarn
+- Puter.js Account ([puter.com](https://puter.com))
 
-1. **Clone the repository**
+### Installation
+
 ```bash
+# 1. Clone repository
 git clone https://github.com/yourusername/visen.git
 cd visen
-```
 
-2. **Install dependencies**
-```bash
+# 2. Install dependencies
 npm install
-# or
-yarn install
-```
 
-3. **Set up environment variables**
-```bash
-# Create .env file
+# 3. Set up environment
 cp .env.example .env
+# Edit .env and add your VITE_PUTER_APP_NAME
 
-# Add your API keys
-VITE_PUTER_APP_NAME=your_app_name
-VITE_AI_API_KEY=your_ai_api_key
-```
-
-4. **Start development server**
-```bash
+# 4. Start dev server
 npm run dev
-# or
-yarn dev
-```
 
-5. **Open your browser**
-```
-Navigate to http://localhost:5173
+# 5. Open browser
+# http://localhost:5173
 ```
 
 ---
 
-## 🎯 Usage
-
-### **1. Sign In**
-- Click "Continue" to authenticate with Puter
-- Access your personalized dashboard
-
-### **2. Upload Resume**
-- Navigate to the upload page
-- Enter company name, job title, and job description
-- Upload your resume (PDF format)
-
-### **3. Get Instant Feedback**
-- AI analyzes your resume in seconds
-- View overall score and category breakdowns
-- Explore detailed improvement suggestions
-
-### **4. Improve & Iterate**
-- Apply recommended changes
-- Re-upload and track improvements
-- Compare multiple versions
-
----
-
-## 🏗️ Project Structure
+## 📁 Project Structure
 
 ```
 visen/
-├── app/                    # React Router app
-│   ├── routes/            # Page routes
-│   │   ├── home.tsx       # Dashboard
-│   │   ├── upload.tsx     # Resume upload
-│   │   ├── auth.tsx       # Authentication
-│   │   └── resume.$id.tsx # Analysis view
-│   └── component/         # Reusable components
-│       ├── Navbar.tsx
-│       ├── ScoreGauge.tsx
-│       ├── Summary.tsx
-│       ├── Details.tsx
-│       └── ATS.tsx
-├── public/                # Static assets
-│   ├── icons/
-│   └── images/
-├── lib/                   # Utilities & helpers
-│   ├── puter.ts          # Puter integration
-│   ├── pdf2img.ts        # PDF conversion
-│   └── utils.ts          # Helper functions
-└── app.css               # Global styles
+├── app/
+│   ├── routes/                # Page routes
+│   │   ├── landing.tsx       # Landing page (SEO)
+│   │   ├── home.tsx          # Dashboard
+│   │   ├── auth.tsx          # Authentication
+│   │   ├── upload.tsx        # Resume upload
+│   │   ├── resume.$id.tsx    # Analysis view
+│   │   └── privacy.tsx       # Privacy policy
+│   │
+│   ├── component/             # Reusable components
+│   │   ├── Navbar.tsx
+│   │   ├── Summary.tsx
+│   │   ├── Details.tsx
+│   │   ├── ATS.tsx
+│   │   └── ScoreGauge.tsx
+│   │
+│   └── app.css               # Global styles
+│
+├── lib/
+│   ├── puter.ts              # Puter integration
+│   ├── pdf2img.ts            # PDF conversion
+│   └── utils.ts              # Helpers
+│
+├── public/
+│   ├── robots.txt            # SEO
+│   ├── sitemap.xml           # SEO
+│   └── favicon.ico
+│
+├── routes.ts                 # Route config
+└── package.json
 ```
 
 ---
 
-## 🎨 Design Philosophy
+## 🌐 Deployment
 
-Visen's UI is built with a focus on:
+### Deploy to Netlify
 
-- **Modern Aesthetics**: Dark gradient backgrounds with purple-indigo accents
-- **Glass Morphism**: Subtle transparency and blur effects
-- **Smooth Animations**: Floating orbs and fade-in transitions
-- **Accessibility**: High contrast and readable typography
-- **Responsiveness**: Seamless experience across all devices
+```bash
+# 1. Build project
+npm run build
 
----
+# 2. Deploy via Git (Recommended)
+# - Push to GitHub
+# - Connect repo in Netlify Dashboard
+# - Auto-deploys on every push
 
-## 🔧 Configuration
-
-### **Customizing AI Prompts**
-Edit `constants/index.ts` to modify the AI analysis instructions:
-
-```typescript
-export const prepareInstructions = ({ jobTitle, jobDescription }) => {
-  return `Analyze this resume for a ${jobTitle} position...`;
-};
-```
-
-### **Styling**
-Modify `app.css` for theme customization:
-
-```css
-:root {
-  --color-primary: #667eea;
-  --color-secondary: #764ba2;
-}
+# 3. Set Environment Variables
+# In Netlify: Site Settings → Environment Variables
+# Add: VITE_PUTER_APP_NAME
 ```
 
 ---
 
-## 📈 Roadmap
+## 🔒 Security
 
-- [ ] **Payment Integration** - Stripe subscription tiers
-- [ ] **Resume History** - Track and compare multiple versions
-- [ ] **Email Notifications** - Analysis completion alerts
-- [ ] **Export Features** - Download PDF reports
-- [ ] **Team Collaboration** - Share and review resumes
-- [ ] **Mobile App** - iOS and Android applications
-- [ ] **API Access** - Developer API for integrations
+### Implemented Measures
+
+- ✅ **File Upload Security**:
+  - 5MB size limit
+  - PDF-only validation
+  - Malware scanning
+  
+- ✅ **API Security**:
+  - Rate limiting (10/day per user)
+  - No exposed API keys
+  - Server-side processing
+  
+- ✅ **Data Security**:
+  - HTTPS/TLS encryption
+  - At-rest encryption
+  - User data isolation
+
+- ✅ **Privacy**:
+  - GDPR compliance
+  - User data deletion
+  - No third-party sharing
+
+---
+
+## 🗺️ Roadmap
+
+### ✅ v1.0 (Current)
+- [x] Resume analysis
+- [x] Interview prep
+- [x] User auth
+- [x] Dark theme UI
+- [x] SEO optimization
+
+### 🚧 v1.1 (Next)
+- [ ] Email notifications
+- [ ] Resume comparison
+- [ ] PDF export
+- [ ] Voice recording
+
+### 📋 v2.0 (Future)
+- [ ] Payment integration
+- [ ] Subscription tiers
+- [ ] Resume templates
+- [ ] Cover letter generator
+- [ ] Mobile app
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please follow these steps:
+Contributions welcome! Please:
 
 1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
+2. Create feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit changes (`git commit -m 'Add AmazingFeature'`)
+4. Push to branch (`git push origin feature/AmazingFeature`)
+5. Open Pull Request
 
 ---
 
-## 👨‍💻 Author
+## 📄 License
 
-**Your Name**
-- GitHub: [@m-abdullah06](https://github.com/m-abdullah-06)
-- Email: abdullah.muhammad.xyz@gmail.com
+MIT License - see [LICENSE](LICENSE) file
 
 ---
 
 ## 🙏 Acknowledgments
 
-- [Puter.js](https://puter.com) - Cloud backend platform
-- [React Router](https://reactrouter.com) - Routing library
-- [TailwindCSS](https://tailwindcss.com) - CSS framework
-- [Lucide Icons](https://lucide.dev) - Beautiful icons
-- Special thanks to all contributors and testers
+- [Puter.js](https://puter.com) - Cloud backend
+- [Netlify](https://netlify.com) - Hosting
+- [React](https://reactjs.org) - UI framework
+- [TailwindCSS](https://tailwindcss.com) - Styling
+- Open source community
+
+---
+
+## 📞 Contact
+
+**Author**: [Muhammad Abdullah]
+
+- Email: your.email@example.com
+
+**Project**: [github.com/m-abdullah-06/Visen](https://github.com/m-abdullah-06/Visen)
+
+**Live Demo**: [Visen](https://visen-ai.netlify.app)
 
 ---
 
 <div align="center">
 
-### ⭐ Star this repository if you find it helpful!
+### ⭐ Star this repo if you find it helpful!
 
-Made with ❤️ and ☕ by Muhammad Abdullah
+Made with ❤️ and ☕
 
-[Report Bug](https://github.com/m-abdullah-06/visen/issues) • [Request Feature](https://github.com/m-abdullah-06/visen/issues)
+**[⬆ Back to Top](#-visen---ai-career-intelligence-platform)**
 
 </div>
